@@ -1,0 +1,129 @@
+.title {
+    border-width: medium thin;
+    text-align: center;
+    color: white;
+}
+.img video {
+    position: absolute;
+    width: 70vw;
+    height: 70vh;
+    margin-left: 10%;
+}
+.about {
+    border: 3px solid rgb(88, 87, 87);
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+    margin-left: 20%;
+    margin-right: 20%;
+    color: black;
+}
+.insta{
+    width: 15%;
+    height: 15%;
+}
+.contact{
+    border: 3px solid rgb(88, 87, 87);
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+    margin-left: 20%;
+    margin-right: 20%;
+    color: black;
+    border-radius: 25px;
+}
+.contact2{
+    border: 3px solid rgb(88, 87, 87);
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(3, 26, 237);
+    border-radius: 25px;
+}
+.contact3{
+    border: 3px solid rgb(88, 87, 87);
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(3, 26, 237);
+    border-radius: 25px;
+}
+.contactInfo{
+    align-self: center;
+}
+body {
+    background-color: rgb(38, 35, 35);
+    width: 100vw;
+    height: 100vh;
+}
+.vertical-menu {
+    width: 200px; 
+    float: left;
+    top: 10px;
+    box-shadow: 8px 8px 16px rgb(78, 78, 78);
+    position: absolute;
+}
+.vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.vertical-menu a:hover {
+    background-color: #ccc;
+} 
+.vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.project_switch {
+    width: 200px; 
+    float: right;
+    bottom: 10px;
+    box-shadow: 8px 8px 16px rgb(78, 78, 78);
+}
+.project_switch a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.project_switch a:hover {
+    background-color: #ccc;
+} 
+.project_switch a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+.project video{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+.project1text{
+    float: right;
+    color: white;
+    background-color: rgb(73, 73, 73);
+    border: 3px solid rgb(88, 87, 87);
+    padding: 4px;
+    margin-right: 10px;
+    width: 30%;
+}
+.arduino{
+    width: 50%;
+    height: 50%;
+    padding-left: 30%;
+}
+.xyz{
+    width: 60%;
+    height: 60%;
+    margin-top: 6%;
+    margin-left: 9%;
+}
