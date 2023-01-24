@@ -149,3 +149,9 @@ body {
     background-color: #04AA6D;
     color: white;
 }
+.thumbnail{
+    width:30%; 
+    margin-left: 40%;
+    top: 10px;
+    position: relative;
+}
