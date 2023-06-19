@@ -2,12 +2,16 @@
     border-width: medium thin;
     text-align: center;
     color: white;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
 }
 .img video {
-    position: absolute;
-    width: 70vw;
-    height: 70vh;
-    margin-left: 10%;
+    height: 100vh;
+    width: 100vw;
+    z-index:9999;
 }
 .about {
     border: 3px solid rgb(88, 87, 87);
@@ -15,7 +19,7 @@
     background-color: rgb(73, 73, 73);
     margin-left: 20%;
     margin-right: 20%;
-    color: black;
+    color: white;
 }
 .insta{
     width: 15%;
@@ -57,11 +61,13 @@ body {
     height: 100vh;
 }
 .vertical-menu {
-    width: 200px; 
+    width: 15vw; 
     float: left;
     top: 10px;
     box-shadow: 8px 8px 16px rgb(78, 78, 78);
-    position: absolute;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
 }
 .vertical-menu a {
     background-color: #eee; 
@@ -79,10 +85,11 @@ body {
     color: white;
 }
 .project_switch {
-    width: 200px; 
-    float: right;
-    bottom: 10px;
     box-shadow: 8px 8px 16px rgb(78, 78, 78);
+    position: fixed;
+    width: 10vw; 
+    float: left;
+    top: 40%;
 }
 .project_switch a {
     background-color: #eee; 
@@ -117,8 +124,7 @@ body {
     width: 30%;
 }
 .arduino{
-    width: 50%;
-    height: 50%;
+    height: 100vh;
     padding-left: 30%;
 }
 .xyz{
