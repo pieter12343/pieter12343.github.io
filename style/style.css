@@ -33,8 +33,7 @@
     justify-content: left;
     background-color: rgb(73, 73, 73);
     color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
 }
 .insta{
     width: 15%;
@@ -96,6 +95,30 @@ body {
     background-color: #ccc;
 } 
 .vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.vertical-menu-right {
+    width: 15vw; 
+    float: left;
+    top: 30vh;
+    box-shadow: 8px 8px 16px rgb(78, 78, 78);
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+}
+.vertical-menu-right a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.vertical-menu-right a:hover {
+    background-color: #ccc;
+} 
+.vertical-menu-right a.active {
     background-color: #04AA6D;
     color: white;
 }
