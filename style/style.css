@@ -9,10 +9,11 @@
     width: 100%;
 }
 .img video {
-    height: 60vh;
-    width: 60vw;
+    height: 50vh;
+    width: 50vw;
     align-items: center;
     justify-content: center;
+    margin-left: 10%;
 }
 .tank video {
     height: 60vh;
@@ -29,10 +30,11 @@
 .about {
     border: 3px solid rgb(88, 87, 87);
     text-align: center;
+    justify-content: left;
     background-color: rgb(73, 73, 73);
-    margin-left: 20%;
-    margin-right: 20%;
     color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .insta{
     width: 15%;
@@ -132,9 +134,9 @@ body {
     color: white;
     background-color: rgb(73, 73, 73);
     border: 3px solid rgb(88, 87, 87);
-    padding: 4px;
-    margin-right: 10px;
-    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
 }
 .arduino{
     height: 100vh;
@@ -173,4 +175,7 @@ body {
     margin-left: 40%;
     top: 10px;
     position: relative;
+}
+body{
+    overflow: hidden;
 }
