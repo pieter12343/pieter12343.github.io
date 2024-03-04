@@ -39,40 +39,21 @@
     width: 15%;
     height: 15%;
 }
-.contact{
-    border: 3px solid rgb(88, 87, 87);
+.contact div{
     text-align: center;
-    background-color: rgb(73, 73, 73);
     margin-left: 20%;
     margin-right: 20%;
     color: black;
-    border-radius: 25px;
-}
-.contact2{
-    border: 3px solid rgb(88, 87, 87);
-    text-align: center;
-    background-color: rgb(73, 73, 73);
-    margin-left: 20%;
-    margin-right: 20%;
-    color: rgb(3, 26, 237);
-    border-radius: 25px;
-}
-.contact3{
-    border: 3px solid rgb(88, 87, 87);
-    text-align: center;
-    background-color: rgb(73, 73, 73);
-    margin-left: 20%;
-    margin-right: 20%;
-    color: rgb(3, 26, 237);
     border-radius: 25px;
 }
 .contactInfo{
     align-self: center;
 }
 body {
-    background-color: rgb(38, 35, 35);
     width: 100vw;
     height: 100vh;
+    background-color: #f5f8ff;
+
 }
 .vertical-menu {
     width: 15vw; 
@@ -171,12 +152,11 @@ body {
     margin-top: 6%;
     margin-left: 9%;
 }
-
 .pdf {
     width: 200px; 
     margin-left: 40%;
     top: 10px;
-    position: relative;
+    justify-content: center;
 }
 .pdf a {
     background-color: #eee; 
@@ -202,3 +182,76 @@ body {
 body{
     overflow: hidden;
 }
+.face{
+    float: right;
+    width: 10vw;
+    height: 10vh;
+    rotate: 90deg;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  #cookiePopup {
+    background-color: #ffffff;
+    position: absolute;
+    font-size: 14px;
+    width: 70vw;
+    max-width: 42.85em;
+    box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    line-height: 1.8em;
+    padding: 2em 1.4em;
+    border-radius: 6px;
+    transition: all 0.5s ease-in;
+  }
+  #cookiePopup img {
+    display: block;
+    width: 3.75em;
+    transform: translateZ(0);
+    position: relative;
+    margin: auto;
+  }
+  #cookiePopup p {
+    text-align: center;
+    margin: 1.4em 0;
+  }
+  #cookiePopup button {
+    background-color: #6859fe;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+  }
+  #cookiePopup a {
+    color: #6859fe;
+  }
+  .hide {
+    visibility: hidden;
+    bottom: 0;
+    right: 2em;
+  }
+  .show {
+    visibility: visible;
+    bottom: 2em;
+    right: 2em;
+  }
+  @media only screen and (max-width: 37.5em) {
+    #cookiePopup {
+      width: 100%;
+    }
+    .hide {
+      bottom: 2em;
+      right: 0;
+    }
+    .show {
+      right: 0;
+      bottom: 0;
+    }
+  }
