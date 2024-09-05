@@ -8,6 +8,38 @@
   <link rel='stylesheet' type='text/css' media='screen' href='../style/style.css'>
 </head>
 <body>
+  <div id="copyrightBanner" class="banner">
+    <p>&copy;
+      Copyright 2023 Pieter Manders
+  
+      Gelicentieerd onder de Apache-licentie, versie 2.0 (the "License"); u mag dit bestand alleen gebruiken in overeenstemming met de Licentie. 
+      U kunt een kopie van de Licentie verkrijgen op
+      <br><br/>
+
+          http://www.apache.org/licenses/LICENSE-2.0
+      <br><br/>
+
+      Tenzij vereist door de toepasselijke wetgeving of schriftelijk overeengekomen, 
+      kan software gedistribueerd onder de Licentie wordt gedistribueerd op een "AS IS"-BASIS, ZONDER GARANTIES OF VOORWAARDEN VAN WELKE AARD DAN OOK, 
+      expliciet of impliciet. Zie de Licentie voor de specifieke taal die van toepassing is op machtigingen en beperkingen onder de Licentie.
+      <button onclick="closeBanner()">Close</button></p>
+  </div>
+  
+  <script>
+    function showBanner() {
+        document.getElementById('copyrightBanner').style.display = 'block';
+    }
+  
+    function closeBanner() {
+        document.getElementById('copyrightBanner').style.display = 'none';
+    }
+  
+    window.onload = showBanner;
+  </script>
+  
+  <div class="clear"></div>
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
   <div class="face">
     <img src="../images/my_face.jpg" alt="what I look like">
   </div>
@@ -46,39 +78,6 @@
   <br></br>
   <div class="clear"></div>
 </Div>
-
-  <div class="clear"></div>
-<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-<div id="copyrightBanner" class="banner">
-  <p>&copy;
-    Copyright 2023 Pieter Manders
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-    
-        http://www.apache.org/licenses/LICENSE-2.0
-    
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-    <button onclick="closeBanner()">Close</button></p>
-</div>
-
-<script>
-  function showBanner() {
-      document.getElementById('copyrightBanner').style.display = 'block';
-  }
-
-  function closeBanner() {
-      document.getElementById('copyrightBanner').style.display = 'none';
-  }
-
-  window.onload = showBanner;
-</script>
 
 </body>
 </html>
